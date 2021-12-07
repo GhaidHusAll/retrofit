@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface APIInterface {
     @GET("eur.json")
-    fun getCurrencies(): Call<currencies>
+    fun getCurrencies(): Call<Currencies>
 }
